@@ -1,0 +1,48 @@
+:root {
+    --brand-green: #00ff00;
+    --brand-yellow: #ffff00;
+    --brand-black: #000000;
+    --brand-dark: #2c2c2c;
+    --brand-white: #ffffff;
+    --brand-light: #e0e0e0;
+    --font-brand: 'Rammetto One';
+    --font-default: 'Open Sans';
+}
+
+a                       { text-decoration: none; }
+
+.font-brand             { font-family: var(--font-brand) !important; }
+.font-default           { font-family: var(--font-default) !important; }
+
+.bg-jumbotron           { background-image: url(../img/jumbotron.png) !important;}
+.bg-black               { background-color: var(--brand-black) !important; }
+.bg-dark                { background-color: var(--brand-dark) !important; }
+.bg-white               { background-color: var(--brand-white) !important; }
+.bg-light               { background-color: var(--brand-light) !important; }
+.bg-green               { background-color: var(--brand-green) !important; }
+.bg-yellow              { background-color: var(--brand-yellow) !important; }
+
+.text-black             { color: var(--brand-black) !important; }
+.text-dark              { color: var(--brand-dark) !important; }
+.text-white             { color: var(--brand-white) !important; }
+.text-light             { color: var(--brand-light) !important; }
+.text-green             { color: var(--brand-green) !important; }
+.text-yellow            { color: var(--brand-yellow) !important; }
+
+.outline-black          { -webkit-text-stroke: 0.05em var(--brand-black) !important; }
+.outline-dark           { -webkit-text-stroke: 0.05em var(--brand-dark) !important; }
+.outline-white          { -webkit-text-stroke: 0.05em var(--brand-white) !important; }
+.outline-light          { -webkit-text-stroke: 0.05em var(--brand-light) !important; }
+.outline-green          { -webkit-text-stroke: 0.05em var(--brand-green) !important; }
+.outline-yellow         { -webkit-text-stroke: 0.05em var(--brand-yellow) !important; }
+
+.latestVideos           { width: 40vw !important; height: 37vh !important; }
+
+.jumbotron {
+    background-image: url(/assets/images/jumbotron.png);
+    background-size: 100vh
+}
+.jumbotron-orion {
+    height: 45vh;
+    width: auto;
+}

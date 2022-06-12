@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+{% include head.html %}
+
+<body class="bg-black text-light">
+    {% include navbar.html %}
+    <div class="jumbotron container-fluid row no-gutters m-0 p-0">
+        <div class="col-md-4">
+            <img class="jumbotron-orion" src="/assets/images/orion.png">
+        </div>
+        <div class="col-md-8">
+            <h1 class="display-1 text-green outline-yellow font-brand pt-4">{{ site.title }}</h1>
+            <p class="fs-4 fw-bolder text-white outline-black">{{ site.description }}</p>
+        </div>
+    </div>
+    <div class="container-fluid bg-black">
+        <div class="text-center">
+            <h2 class="text-green outline-yellow font-brand p-3">About Me!</h2>
+        </div>
+        <p class="lead container p-3">
+        Hey Everyone, I'm Orion The Starhog! I'm a Gamer, Streamer, Jesus Lover, and pro screamer!
+        <br><br>
+        I became a content creator for 2 reasons:
+        <br><br>
+        First, I love gaming in general, but I REALLY love just being able to sit down with my 
+        friends and have a "game night". As a child I always loved multiplayer games, specifically 
+        of the "Board" variety, but I didn't have much luck with that so I swapped to Vidya Games. 
+        That's usually why you'll see me bring a friend along for whatever I happen to be doing!
+        <br><br>
+        Second, I've always been described as an oddity, and my game choices would certainly agree 
+        with that! Instead of Metal Gear Solid, I stream Chicken Run. Instead of Crash Bandicoot, 
+        I played Goin' Quackers. And I thought it'd be fun to show off some of the games I used 
+        to play as a kid and some experiences with older games that I've never played before!
+        </p>
+    </div>
+    <div class="container-fluid bg-dark">
+        <div class="text-center">
+            <h2 class="text-green outline-yellow font-brand p-3">FAQ</h2>
+        </div>
+        <p class="lead container p-3">
+        <b class="fw-bolder">Will you be playing "Insert Game Title"?</b><br>
+        <span>I have to look into any game I'm going to be playing first. I like to maintain a PG 
+        rating on my videos as often as possible, and it'd be hard to do that if I wound up 
+        unwillingly playing some kind of A-rated "Dating sim".</span>
+        <br><br>
+        <b class="fw-bolder">What's with all the "Old games"?</b><br>
+        <span>Nostalgia, if nothing else. With the exception of Mario and Sonic I never really 
+        played any of the "Childhood classics" a lot of people did. I didn't play my first Kirby 
+        game until I was 13, and my first Zelda game was Phantom Hourglass, and even then it was 
+        part of a special bundle with some special edition DS's that had the Triforce on them.</span>
+        <br><br>
+        <b class="fw-bolder">Where'd the name come from?</b><br>
+        <span>THAT is a concoction of my 10 year old brain that just happened to stick. What 
+        started off as a fun little "IMmA mAkE a THinG" transformed into what I have now. It was 
+        first little me just wanting to have a little online "visage" to play with and from then 
+        on I found it gaining more and more use wherever I went.</span>
+        <br><br>
+        <b class="fw-bolder">Is there any game/genre you refuse to touch?</b><br>
+        <span>Aside from the previously mentioned "Not-PG" stuff, Horror. Dead By Daylight 
+        being the odd exception to the rule as it doesn't really "SCARE" me. But I'm not a fan of 
+        real horror games. Even when I play Phasmophobia with Chroma9 I never leave the van, so 
+        I'm not really "PLAYING" Phasmophobia... Yes I'm a wimp.</span>
+        </p>
+    </div>
+    <div class="text-center">
+        <h2 class="text-green outline-yellow font-brand p-3">Check out my Latest Videos!</h2>
+        <iframe class="latestVideos rounded m-3"></iframe>
+        <iframe class="latestVideos rounded m-3"></iframe>
+        <iframe class="latestVideos rounded m-3"></iframe>
+        <iframe class="latestVideos rounded m-3"></iframe>
+    </div>
+    {% include footer.html %}
+    <script src="/assets/js/youtube.js"></script>
+</body>
