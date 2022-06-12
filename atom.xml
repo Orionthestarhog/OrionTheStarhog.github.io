@@ -13,9 +13,9 @@ layout: nil
     </author>
     {% for post in site.posts %}
     <entry>
-        <id>https://orionthestarhog.com{{ post.id }}</id>
+        <id>{{ site.url }}{{ post.id }}</id>
         <title>{{ post.title }}</title>
-        <link href="https://orionthestarhog.com{{ post.url }}" />
+        <link href="{{ site.url }}{{ post.url }}" />
         <updated>{{ post.date | date_to_xmlschema }}</updated>
         <content type="html">{{ post.content | xml_escape }}</content>
     </entry>
