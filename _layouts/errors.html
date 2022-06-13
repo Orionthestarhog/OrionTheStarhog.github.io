@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+{% include head.html %}
+
+<body class="bg-black text-light">
+    {% include navbar.html %}
+    <div class="jumbotron container-fluid row no-gutters m-0 p-0">
+        <div class="col-md-4">
+            <img class="jumbotron-orion" src="/assets/images/orion.png">
+        </div>
+        <div class="col-md-8">
+            <h1 class="display-1 text-green outline-yellow font-brand pt-4">{{ page.title }}</h1>
+            <p class="fs-4 fw-bolder text-white outline-black">{{ page.error }}</p>
+        </div>
+    </div>
+    {% include footer.html %}
+</body>
