@@ -1,0 +1,24 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+{% include head.html %}
+
+<body class="bg-black text-light">
+    {% include navbar.html %}
+    <div class="jumbotron container-fluid row no-gutters m-0 p-0">
+        <div class="col-md-4">
+            <img class="jumbotron-orion" src="/assets/images/orion.png">
+        </div>
+        <div class="col-md-8">
+            <div class="text-center">
+                <h1 class="display-1 text-green outline-black font-brand pt-4">{{ site.title }}</h1>
+                <p class="fs-4 fw-bolder text-white outline-black">{{ site.description }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-black">
+        <div class="text-center">
+            <h2 class="text-green outline-black font-brand p-3">My Friends!</h2>
+        </div>
+</body>
