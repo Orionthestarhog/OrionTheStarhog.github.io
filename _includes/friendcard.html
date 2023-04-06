@@ -1,0 +1,29 @@
+<div class="card text-center col-md-4 bg-dark">
+    <div class="card-header">
+        <h3 class="font-brand mb-0">{{ include.name }}</h3>
+    </div>
+    <img class="card-img-top rounded" src="{{ include.image }}">
+    <div class="card-body">{{ include.bio }}</div>
+    <div class="card-footer">
+        {% if include.discord %}
+        <a class="p-2" href="https://discord.gg/{{ include.discord }}" target="_blank">
+            <i class="fab fa-discord fa-2x" style="color:#5865F2;"></i>
+        </a>
+        {% endif %}
+        {% if include.twitch %}
+        <a class="p-2" href="https://twitter.com/{{ include.twitch }}" target="_blank">
+            <i class="fab fa-twitch fa-2x" style="color:#6441A5;"></i>
+        </a>
+        {% endif %}
+        {% if include.twitter %}
+        <a class="p-2" href="https://twitter.com/{{ include.twitter }}" target="_blank">
+            <i class="fab fa-twitter fa-2x" style="color:#1DA1F2;"></i>
+        </a>
+        {% endif %}
+        {% if include.youtube %}
+        <a class="p-2" href="https://youtube.com/{{ include.youtube }}" target="_blank">
+            <i class="fab fa-youtube fa-2x" style="color:#FF0000;"></i>
+        </a>
+        {% endif %}
+    </div>
+</div>

@@ -17,9 +17,18 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-black">
+    <div class="container bg-black">
         <div class="text-center">
             <h2 class="text-green outline-black font-brand p-3">My Friends!</h2>
+            <div class="row no-gutters">
+                {% 
+                    include friendcard.html
+                    name="" 
+                    image=""
+                    bio=""
+                %}
+            </div>
         </div>
+    </div>
     {% include footer.html %}
 </body>
