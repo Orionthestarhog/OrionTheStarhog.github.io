@@ -2,7 +2,7 @@
     <div class="card-header">
         <h3 class="font-brand mb-0">{{ include.name }}</h3>
     </div>
-    <img class="card-img-top rounded" src="{{ include.image }}">
+    <img class="card-img-top rounded" src="{{ include.image }}" style="max-height:400px;">
     <div class="card-body">{{ include.bio }}</div>
     <div class="card-footer">
         {% if include.discord %}
